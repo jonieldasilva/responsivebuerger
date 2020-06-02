@@ -1,0 +1,36 @@
+#hamnav {
+  width: 100%;
+  background: #000;
+  position: sticky;
+  top: 0;
+}
+
+#hamnav label,
+#hamburger {
+  display: none;
+}
+
+menuitems {
+  display: flex;
+}
+#menuitems a {
+  width: 20%;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #hamnav label {
+    display: inline-block;
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+}
+
+#menuitems a;
+/* 
+https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/#sec-download */
